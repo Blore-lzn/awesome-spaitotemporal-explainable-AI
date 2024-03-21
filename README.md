@@ -8,16 +8,26 @@
     - [spatial relation extraction](#spatial-relation-extraction)
       - [static relation extraction](#static-relation-extraction)
       - [adaptive relation extraction](#adaptive-relation-extraction)
-    - [decomposition-based method](#spatial-decomposition-based-method)
+    - [decomposition-based model](#spatial-decomposition-based-model)
   - [post-hoc](#spatial-post-hoc)
     - [global](#spatial-global-post-hoc)
     - [local](#spatial-local-post-hoc)
 - [Explanation for Temporal Information](#explanation-for-temporal-information)
   - [self-explanatory](#temporal-self-explanatory)
     - [attention-based method](#temporal-attention)
-    - [decomposition-based method](#temporal-decomposition-based-method)
+    - [decomposition-based model](#temporal-decomposition-based-model)
   - [post-hoc](#temporal-post-hoc)
 - [Explanation for SpatioTemporal Information](#explanation-for-spatiotemporal-information)
+  - [self-explanatory](#spatiotemporal-self-explanatory)
+    - [attention-based method](#spatiotemporal--attention)
+    - [ST relation extraction]
+    - [decomposition-based model](#spatiotemporal-decomposition-based-model)
+    - [PINN](#PINN)
+    - [casual method](#spatiotemporal-casual-method)
+    - [rule-based model](#rule-based-model)
+  - [post-hoc](#spatiotemporal-post-hoc)
+    - [global](#spatiotemporal-global-post-hoc)
+    - [local](#spatiotemporal-local-post-hoc)
 - [Explanation for Exogenous Variable Information](#explanation-for-exogenous-variable-information)
 
 ## Explanation for Spatial Information
@@ -53,7 +63,7 @@
 - [Explainable district heat load forecasting with active deep learning](https://www.sciencedirect.com/science/article/pii/S0306261923011170)
 - [An interpretable model for short term traffic flow prediction](https://www.sciencedirect.com/science/article/pii/S0378475419303726)
 
-### decomposition-based method<a id="spatial-decomposition-based-method"></a>
+### decomposition-based model<a id="spatial-decomposition-based-model"></a>
 
 - [Multi-Factor Spatio-Temporal Prediction based on Graph Decomposition Learning](https://arxiv.org/abs/2310.10374)
 
@@ -82,7 +92,7 @@
 - [A Spatio-Temporal Spot-Forecasting Framework for Urban Traffic Prediction](https://arxiv.org/abs/2003.13977)
 - [Interpretable Water Level Forecaster with Spatiotemporal Causal Attention Mechanisms](https://arxiv.org/abs/2303.00515)
 
-#### decomposition-based method<a id="temporal-decomposition-based-method"></a>
+#### decomposition-based model<a id="temporal-decomposition-based-model"></a>
 
 - [Missing Value Imputation of Time-Series Air-Quality Data via Deep Neural Networks](https://www.mdpi.com/1660-4601/18/22/12213)
 - [When Spatio-Temporal Meet Wavelets: Disentangled Traffic Forecasting via Efficient Spectral Graph Attention Networks](https://ieeexplore.ieee.org/abstract/document/10184591/)
@@ -94,5 +104,56 @@
 - [Spatial-temporal behavior of precipitation driven karst spring discharge in a mountain terrain](https://www.sciencedirect.com/science/article/pii/S0022169422006916)
 
 ## Explanation for SpatioTemporal Information
+
+### self-explanatory<a id="spatiotemporal-self-explanatory"></a>
+
+#### attention-based method<a id="spatiotemporal-attention"></a>
+
+- [Interpretable spatio-temporal attention LSTM model for flood forecasting](https://www.sciencedirect.com/science/article/pii/S0925231220307530)
+- [Predicting hourly PM2.5 concentrations in wildfire-prone areas using a SpatioTemporal Transformer model](https://www.sciencedirect.com/science/article/pii/S0048969722075489)
+- [AIST: An Interpretable Attention-based Deep learning Model for Crime Prediction](https://dl.acm.org/doi/abs/10.1145/3582274)
+
+#### ST relation extraction
+
+- [Generative Causal Interpretation Model for Spatio-Temporal Representation Learning](https://dl.acm.org/doi/abs/10.1145/3580305.3599363)
+- [Identifying causal gateways and mediators in complex spatio-temporal systems](https://www.nature.com/articles/ncomms9502)
+- [A Spatial-Temporal Approach for Multi-Airport Traffic Flow Prediction Through Causality Graphs](https://ieeexplore.ieee.org/abstract/document/10239243/)
+- [Interpretable weather forecasting for worldwide stations with a unified deep model](https://www.nature.com/articles/s42256-023-00667-9)
+
+#### decomposition-based model<a id="spatiotemporal-decomposition-based-model"></a>
+
+- [Spatio-Temporal Multi-Task Learning via Tensor Decomposition](https://ieeexplore.ieee.org/abstract/document/8918011/)
+
+#### PINN
+
+- [Interpretable Spatiotemporal Deep Learning Model for Traffic Flow Prediction based on Potential Energy Fields](https://ieeexplore.ieee.org/abstract/document/9338315/)
+- [Traffic Flow Prediction Based on Spatiotemporal Potential Energy Fields](https://ieeexplore.ieee.org/abstract/document/9944966/)
+- [STDEN: Towards physics-guided neural networks for traffic flow prediction](https://ojs.aaai.org/index.php/AAAI/article/view/20322)
+
+#### casual-method<a id="spatiotemporal-casual-method"></a>
+
+- [A data-driven approach to exploring the causal relationships between distributed pumping activities and aquifer drawdown](https://www.sciencedirect.com/science/article/pii/S0048969723006137)
+- [A deep learning based multitask model for network-wide traﬃc speed prediction](https://www.sciencedirect.com/science/article/pii/S0925231219304527)
+- [Unravelling the teleconnections between ENSO and dry/wet conditions over T India using nonlinear Granger causality](https://www.sciencedirect.com/science/article/pii/S0169809520311042)
+- [Prediction Technology for Parking Occupancy Based on Multi-dimensional Spatial-Temporal Causality and ANN Algorithm](https://link.springer.com/chapter/10.1007/978-3-030-64243-3_19)
+- [STCD: A Spatio-Temporal Causal Discovery Framework for Hydrological Systems](https://ieeexplore.ieee.org/abstract/document/10020845/)
+
+#### rule-based model
+
+- [Self-Constructed Deep Fuzzy Neural Network for Traffic Flow Prediction](https://www.mdpi.com/2079-9292/12/8/1885)
+
+### post-hoc<a id="spatiotemporal-post-hoc"></a>
+
+#### global<a id="spatiotemporal-global-post-hoc"></a>
+
+- [Traffic speed prediction for urban transportation network: A path based deep learning approach](https://www.sciencedirect.com/science/article/pii/S0968090X1831043X)
+- [Weighted Graph-Based Signal Temporal Logic Inference Using Neural Networks](https://ieeexplore.ieee.org/abstract/document/9662049/)
+- [Combining graph neural networks and spatio‐temporal disease models to improve the prediction of weekly COVID‐19 cases in Germany](https://www.nature.com/articles/s41598-022-07757-5)
+
+#### local<a id="spatiotemporal-local-post-hoc"></a>
+
+- [A method to evaluate task-specific importance of spatio-temporal units based on explainable artificial intelligence](https://www.tandfonline.com/doi/abs/10.1080/13658816.2020.1805116)
+- [Evaluation and interpretation of convolutional long short-term memory networks for regional hydrological modelling](https://hess.copernicus.org/articles/26/795/2022/)
+- [Interpreting Deep Machine Learning for Streamflow Modeling Across Glacial, Nival, and Pluvial Regimes in Southwestern Canada](https://www.frontiersin.org/articles/10.3389/frwa.2022.934709/full)
 
 ## Explanation for Exogenous Variable Information
