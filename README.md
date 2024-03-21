@@ -4,7 +4,7 @@
 
 - [Explanation for Spatial Information](#explanation-for-spatial-information)
   - [self-explanatory](#spatial-self-explanatory)
-    - [attention](#spatial-attention)
+    - [attention-based method](#spatial-attention)
     - [spatial relation extraction](#spatial-relation-extraction)
       - [static relation extraction](#static-relation-extraction)
       - [adaptive relation extraction](#adaptive-relation-extraction)
@@ -13,6 +13,10 @@
     - [global](#spatial-global-post-hoc)
     - [local](#spatial-local-post-hoc)
 - [Explanation for Temporal Information](#explanation-for-temporal-information)
+  - [self-explanatory](#temporal-self-explanatory)
+    - [attention-based method](#temporal-attention)
+    - [decomposition-based method](#temporal-decomposition-based-method)
+  - [post-hoc](#temporal-post-hoc)
 - [Explanation for SpatioTemporal Information](#explanation-for-spatiotemporal-information)
 - [Explanation for Exogenous Variable Information](#explanation-for-exogenous-variable-information)
 
@@ -53,14 +57,14 @@
 
 - [Multi-Factor Spatio-Temporal Prediction based on Graph Decomposition Learning](https://arxiv.org/abs/2310.10374)
 
-## post-hoc<a id="spatial-post-hoc"></a>
+### post-hoc<a id="spatial-post-hoc"></a>
 
-### global<a id="spatial-global-post-hoc"></a>
+#### global<a id="spatial-global-post-hoc"></a>
 
 - [Spatiotemporal information conversion machine for time-series prediction](https://arxiv.org/abs/2107.01353)
 - [Explainability techniques applied to road traffic forecasting using Graph Neural Network models](https://www.sciencedirect.com/science/article/pii/S0020025523009052)
 
-### local<a id="spatial-local-post-hoc"></a>
+#### local<a id="spatial-local-post-hoc"></a>
 
 - [TSEM: Temporally-Weighted Spatiotemporal Explainable Neural Network for Multivariate Time Series](https://link.springer.com/chapter/10.1007/978-3-031-28073-3_13)
 - [High-resolution downscaling with interpretable deep learning: Rainfall extremes over New Zealand](https://www.sciencedirect.com/science/article/pii/S2212094722001049)
@@ -69,6 +73,25 @@
 - [Tree-based ensemble deep learning model for spatiotemporal surface ozone prediction and interpretation](https://www.sciencedirect.com/science/article/pii/S0303243421002233)
 
 ## Explanation for Temporal Information
+
+### self-explanatory<a id="temporal-self-explanatory"></a>
+
+#### attention-based method<a id="temporal-attention"></a>
+
+- [Interpretable Crowd Flow Prediction with Spatial-Temporal Self-Attention](https://arxiv.org/abs/2002.09693)
+- [A Spatio-Temporal Spot-Forecasting Framework for Urban Traffic Prediction](https://arxiv.org/abs/2003.13977)
+- [Interpretable Water Level Forecaster with Spatiotemporal Causal Attention Mechanisms](https://arxiv.org/abs/2303.00515)
+
+#### decomposition-based method<a id="temporal-decomposition-based-method"></a>
+
+- [Missing Value Imputation of Time-Series Air-Quality Data via Deep Neural Networks](https://www.mdpi.com/1660-4601/18/22/12213)
+- [When Spatio-Temporal Meet Wavelets: Disentangled Traffic Forecasting via Efficient Spectral Graph Attention Networks](https://ieeexplore.ieee.org/abstract/document/10184591/)
+
+### post-hoc<a id="temporal-post-hoc"></a>
+
+#### SHAP<a id="temporal-SHAP"></a>
+
+- [Spatial-temporal behavior of precipitation driven karst spring discharge in a mountain terrain](https://www.sciencedirect.com/science/article/pii/S0022169422006916)
 
 ## Explanation for SpatioTemporal Information
 
