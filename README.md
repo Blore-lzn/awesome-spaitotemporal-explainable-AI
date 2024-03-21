@@ -15,7 +15,7 @@
     - [Attention-Based Method](#temporal-attention)
     - [Decomposition-Based Method](#temporal-decomposition-based-model)
   - [Post-Hoc](#temporal-post-hoc)
-- [Explanation for SpatioTemporal Information](#explanation-for-spatiotemporal-information)
+- [Explanation for Spatio-Temporal Information](#explanation-for-spatiotemporal-information)
   -  [Self-Explanatory](#spatiotemporal-self-explanatory)
     - [Attention-Based Method](#spatiotemporal--attention)
     - [ST relation extraction](#st-relation-extraction)
@@ -106,7 +106,7 @@
 
 - [Spatial-temporal behavior of precipitation driven karst spring discharge in a mountain terrain](https://www.sciencedirect.com/science/article/pii/S0022169422006916)
 
-## Explanation for SpatioTemporal Information
+## Explanation for Spatio-Temporal Information
 
 ### Self-Explanatory<a id="spatiotemporal-self-explanatory"></a>
 
