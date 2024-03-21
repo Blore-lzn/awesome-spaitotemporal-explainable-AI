@@ -20,7 +20,7 @@
 - [Explanation for SpatioTemporal Information](#explanation-for-spatiotemporal-information)
   - [self-explanatory](#spatiotemporal-self-explanatory)
     - [attention-based method](#spatiotemporal--attention)
-    - [ST relation extraction]
+    - [ST relation extraction](#st-relation-extraction)
     - [decomposition-based model](#spatiotemporal-decomposition-based-model)
     - [PINN](#PINN)
     - [casual method](#spatiotemporal-casual-method)
@@ -29,6 +29,11 @@
     - [global](#spatiotemporal-global-post-hoc)
     - [local](#spatiotemporal-local-post-hoc)
 - [Explanation for Exogenous Variable Information](#explanation-for-exogenous-variable-information)
+  - [self-explanatory](#exogenous-self-explanatory)
+    - [attention-based method](#exogenous-attention)
+  - [post-hoc](#exogenous-post-hoc)
+    - [global](#exogenous-global-post-hoc)
+    - [local](#exogenous-local-post-hoc)
 
 ## Explanation for Spatial Information
 
@@ -157,3 +162,24 @@
 - [Interpreting Deep Machine Learning for Streamflow Modeling Across Glacial, Nival, and Pluvial Regimes in Southwestern Canada](https://www.frontiersin.org/articles/10.3389/frwa.2022.934709/full)
 
 ## Explanation for Exogenous Variable Information
+
+### self-explanatory<a id="exogenous-self-explanatory"></a>
+
+#### attention-based method<a id="exogenous-attention"></a>
+
+- [Spatial-temporal meta-path guided explainable crime prediction](https://link.springer.com/article/10.1007/s11280-023-01137-3)
+- [Spatiotemporal Attention for Multivariate Time Series Prediction and Interpretation](https://ieeexplore.ieee.org/abstract/document/9413914/)
+
+### post-hoc<a id="exogenous-post-hoc"></a>
+
+#### global<a id="exogenous-global-post-hoc"></a>
+
+- [Spatiotemporal grid-based crash prediction—application of a transparent deep hybrid modeling framework](https://link.springer.com/article/10.1007/s00521-022-07511-y)
+
+#### local<a id="exogenous-local-post-hoc"></a>
+
+- [Investigating 3D-STDenseNet for Explainable Spatial Temporal Crime Forecasting](https://www.esann.org/sites/default/files/proceedings/2020/ES2020-118.pdf)
+- [A Spatial–Temporal Causal Convolution Network Framework for Accurate and Fine-Grained PM2.5 Concentration Prediction](https://www.mdpi.com/1099-4300/24/8/1125)
+- [Interpretable and explainable AI (XAI) model for spatial drought prediction](https://www.sciencedirect.com/science/article/pii/S0048969721048725)
+- [A novel four-dimensional prediction model of soil heavy metal pollution: Geographical explanations beyond artificial intelligence "black box"](https://www.sciencedirect.com/science/article/pii/S0304389423011834)
+- [Prediction of Spread Trend of Epidemic Based on Spatial-Temporal Sequence](https://www.mdpi.com/2073-8994/14/5/1064)
