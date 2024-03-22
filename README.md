@@ -63,7 +63,6 @@
 
 - [Dynamic Causal Explanation Based Diffusion-Variational Graph Neural Network for Spatio-temporal Forecasting](https://arxiv.org/abs/2305.09703)
 - [CausalSE: Understanding Varied Spatial Effects with Missing Data Toward Adding New Bike-sharing Stations](https://dl.acm.org/doi/abs/10.1145/3536427)
-- [Explainable district heat load forecasting with active deep learning](https://www.sciencedirect.com/science/article/pii/S0306261923011170)
 - [An interpretable model for short term traffic flow prediction](https://www.sciencedirect.com/science/article/pii/S0378475419303726)
 
 ### Decomposition-Based Method<a id="spatial-decomposition-based-model"></a>
